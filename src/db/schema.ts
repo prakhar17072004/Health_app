@@ -69,8 +69,7 @@ import {
   /*─────────────────────────
     child_vaccine_status
     ─────────────────────────*/
-  export const childVaccineStatusTable = pgTable(
-    "child_vaccine_status",
+  export const childVaccineStatusTable = pgTable("child_vaccine_status",
     {
       id: uuid("id").defaultRandom().primaryKey(),
   
