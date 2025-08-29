@@ -2,7 +2,7 @@ import React from 'react'
 
 function Dashboard() {
   return (
-    <div>Dashboard   ready to start pages</div>
+    <div>Dashboard    pages</div>
   )
 }
 
