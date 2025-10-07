@@ -1,0 +1,6 @@
+[
+    { "id": 1, "name": "BCG", "disease": "Tuberculosis", "due": "At birth" },
+    { "id": 2, "name": "OPV 0", "disease": "Polio", "due": "At birth" },
+    { "id": 3, "name": "Hepatitis B1", "disease": "Hepatitis B", "due": "At birth" }
+  ]
+  
