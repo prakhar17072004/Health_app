@@ -1,6 +1,7 @@
 import { db } from "@/lib/db";
 import { children } from "@/../drizzle/schema";
 import { NextResponse } from "next/server";
+import { eq } from "drizzle-orm";
 
 export async function POST(req: Request) {
   const { name, dob, userId } = await req.json();
@@ -11,6 +12,9 @@ export async function POST(req: Request) {
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url);
   const userId = Number(searchParams.get("userId"));
-  const all = await db.select().from(children).where(children.userId.eq(userId));
-  return NextResponse.json(all);
+  const result = await db
+  .select()
+  .from(children)
+  .where(eq(children.userId, userId));
+  return NextResponse.json(result);
 }
