@@ -31,8 +31,7 @@ export async function POST(req: Request) {
     let [user] = await db
       .select()
       .from(users)
-      .where(eq(users.name, userName))
-      .limit(1);
+      .where(eq(users.name, userName));
 
     // 4️⃣ Create user if not exists
     if (!user) {
