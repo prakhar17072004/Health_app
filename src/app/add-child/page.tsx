@@ -38,42 +38,4 @@ export default function AddChildPage() {
   };
 
   return (
-    <div className="max-w-md mx-auto mt-10 p-6 border rounded shadow">
-      <h2 className="text-2xl font-semibold mb-6">Add Child</h2>
-
-      <label className="block mb-2 font-medium">Parent Name</label>
-      <input
-        type="text"
-        placeholder="Enter parent name"
-        value={form.userName}
-        onChange={(e) => setForm({ ...form, userName: e.target.value })}
-        className="w-full border p-2 mb-4 rounded"
-      />
-
-      <label className="block mb-2 font-medium">Child Name</label>
-      <input
-        type="text"
-        placeholder="Enter child name"
-        value={form.childName}
-        onChange={(e) => setForm({ ...form, childName: e.target.value })}
-        className="w-full border p-2 mb-4 rounded"
-      />
-
-      <label className="block mb-2 font-medium">Date of Birth</label>
-      <input
-        type="date"
-        value={form.dob}
-        onChange={(e) => setForm({ ...form, dob: e.target.value })}
-        className="w-full border p-2 mb-6 rounded"
-      />
-
-      <button
-        onClick={handleSubmit}
-        disabled={loading}
-        className={`w-full py-2 px-4 rounded text-white ${loading ? "bg-gray-400" : "bg-blue-600 hover:bg-blue-700"}`}
-      >
-        {loading ? "Saving..." : "Save"}
-      </button>
-    </div>
-  );
-}
+    <div className="max-w-md mx-auto mt-10 p-6
