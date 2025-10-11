@@ -8,7 +8,7 @@ export default function Navbar() {
         <Link href="/">
           <span className="font-bold text-lg">Vaccination Reminder</span>
         </Link>
-        <div className="space-x-3">
+        <div className="space-x-5">
           <Link href="/" className="text-sm">Dashboard</Link>
           <Link href="/info-library" className="text-sm">Info</Link>
         </div>
