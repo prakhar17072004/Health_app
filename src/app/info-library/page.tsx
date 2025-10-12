@@ -5,7 +5,7 @@ export default function InfoLibraryPage() {
     <div className="max-w-3xl mx-auto">
       <h1 className="text-2xl font-semibold mb-4">Health Information</h1>
       {data.map((a, i) => (
-        <div key={i} className="mb-4 border p-4 rounded">
+        <div key={i} className="mb-4 border p-6 rounded">
           <h2 className="text-lg font-medium">{a.title}</h2>
           <p className="mt-2">{a.content}</p>
         </div>
