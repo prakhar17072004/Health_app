@@ -39,7 +39,7 @@ export default function AddChildPage() {
 
   return (
     <div className="max-w-md mx-auto mt-10 p-6 border rounded shadow">
-      <h2 className="text-2xl font-semibold mb-6">Add Child</h2>
+      <h2 className="text-4xl font-semibold mb-6">Add Child</h2>
 
       <label className="block mb-4 font-medium">Parent Name</label>
       <input
