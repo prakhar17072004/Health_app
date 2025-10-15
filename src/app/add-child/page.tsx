@@ -47,7 +47,7 @@ export default function AddChildPage() {
         placeholder="Enter parent name"
         value={form.userName}
         onChange={(e) => setForm({ ...form, userName: e.target.value })}
-        className="w-full border p-2 mb-4 rounded"
+        className="w-full border p-2 mb-8 rounded"
       />
 
       <label className="block mb-2 font-medium">Child Name</label>
