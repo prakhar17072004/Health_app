@@ -70,7 +70,7 @@ export default function AddChildPage() {
       <button
         onClick={handleSubmit}
         disabled={loading}
-        className={`w-full py-2 px-6 rounded text-white ${loading ? "bg-gray-400" : "bg-blue-600 hover:bg-blue-700"}`}
+        className={`w-full py-2 px-9 rounded text-white ${loading ? "bg-gray-400" : "bg-blue-600 hover:bg-blue-700"}`}
       >
         {loading ? "Saving..." : "Save"}
       </button>
