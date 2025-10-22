@@ -64,7 +64,7 @@ export default function AddChildPage() {
         type="date"
         value={form.dob}
         onChange={(e) => setForm({ ...form, dob: e.target.value })}
-        className="w-full border p-2 mb-6 rounded"
+        className="w-full border p-2 mb-9 rounded"
       />
 
       <button
