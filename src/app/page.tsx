@@ -32,7 +32,7 @@ export default function HomePage() {
       {children.length === 0 ? (
         <p>No children yet. Click "Add Child".</p>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
           {children.map((c) => (
             <ChildCard key={c.id} child={c} />
           ))}
