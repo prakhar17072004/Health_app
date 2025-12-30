@@ -23,7 +23,7 @@ export default function HomePage() {
           <button onClick={() => router.push("/add-child")} className="px-4 py-2 bg-blue-600 text-white rounded">
             Add Child
           </button>
-          <button onClick={() => router.push("/info-library")} className="ml-2 px-4 py-2 border rounded">
+          <button onClick={() => router.push("/info-library")} className="ml-2 px-4 py-6 border rounded">
             Info Library
           </button>
         </div>
