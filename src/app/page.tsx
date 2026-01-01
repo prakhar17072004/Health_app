@@ -20,7 +20,7 @@ export default function HomePage() {
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-2xl font-semibold">Dashboard</h1>
         <div>
-          <button onClick={() => router.push("/add-child")} className="px-4 py-2 bg-blue-600 text-white rounded">
+          <button onClick={() => router.push("/add-child")} className="px-4 py-2 bg-blue-700 text-white rounded">
             Add Child
           </button>
           <button onClick={() => router.push("/info-library")} className="ml-6 px-4 py-9 border rounded">
