@@ -1,4 +1,4 @@
-"use client";
+ji"use client";
 import { useEffect, useState } from "react";
 import ChildCard from "@/components/ChildCard";
 import { useRouter } from "next/navigation";
@@ -32,7 +32,7 @@ export default function HomePage() {
       {children.length === 0 ? (
         <p>No children yet. Click "Add Child".</p>
       ) : (
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-9">
           {children.map((c) => (
             <ChildCard key={c.id} child={c} />
           ))}
